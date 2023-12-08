@@ -1,8 +1,8 @@
 //
-//  ButtonDefault.swift
+//  TelaVermelhaView.swift
 //  TelasSwift
 //
-//  Created by IFBIOTIC12 on 03/07/23.
+//  Created by IFB-BIOTIC-10 on 08/12/23.
 //
 
 import Foundation
@@ -20,7 +20,7 @@ class ButtonDefault: UIButton {
     private func initDefault(botao: String) {
         self.setTitle(botao, for: .normal)
         self.backgroundColor = .buttonBackGroundColor
-        self.layer.cornerRadius = 14
+        self.layer.cornerRadius = 3
         self.translatesAutoresizingMaskIntoConstraints = false
     }
     
